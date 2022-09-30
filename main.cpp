@@ -27,6 +27,7 @@ void fibonacci(int n, int numbers[])
 }
 
 int test_fibonacci() {
+    // much safer than using c-style arrays - preferred option in modern code
     std::vector<int> expected_numbers {1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89};
 
     int num_test = 5;
